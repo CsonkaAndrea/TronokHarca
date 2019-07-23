@@ -5,25 +5,25 @@ body {
 }
 
 .main__container {
+    box-sizing: border-box;
 position: relative;
-border: 1px solid black;
 }
 
 .pictures__container {
 position: relative;
-border: 1px solid black;
 padding: 0px;
 float: left;
 width: 80vw;
+box-sizing: border-box;
 height: 60vh;
 }
 
 .small__pictures {
+box-sizing: border-box;
 position: relative;
 float: left;
 width:120px;
 height:110px;
-border: 1px solid black;
 margin-left: 30px;
 margin-top: 3px;
 top: 10px;
@@ -31,20 +31,49 @@ left: 10px;
 }
 
 .details__container {
-    border: 1px solid black;
-float: left;
-height: 50px;
-width: 90px;
+float: right;
+box-sizing: border-box;
+width: 18.8vw;
+top: 0;
+height: 100vh;
+background-color: black;
 }
 
 .images {
 display: block;
+border-radius: 90%;
   margin-left: auto;
   margin-right: auto;
   width: 90px;
   height: 90px;
+  box-sizing: border-box;
 } 
 
+.images:hover {
+    /* box-shadow: 1px 1px 5px #0e1c36; */
+    box-sizing: border-box;
+    border-radius: 90%;
+    cursor: pointer;
+}
+
 .image__names {
+    box-sizing: border-box;
     text-align: center;
+    font-size: 14px;
+}
+
+.title {
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.searchBar {
+ bottom: 0px;
+ position: absolute;
+}
+
+#showNoResult {
+color: whitesmoke;
 }
