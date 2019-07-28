@@ -1,72 +1,71 @@
 body {
-    background: url(/assets/site/mapblue.jpg) no-repeat center;
     background-size: cover;
+    background: url(/assets/site/mapblue.jpg) no-repeat center;
     margin: 0;
 }
 
 .main__container {
     box-sizing: border-box;
-position: relative;
+    position: relative;
 }
 
 .pictures__container {
-position: relative;
-padding: 0px;
-float: left;
-width: 80vw;
-box-sizing: border-box;
-height: 60vh;
+    box-sizing: border-box;
+    float: left;
+    height: 60vh;
+    padding: 0px;
+    position: relative;
+    width: 80vw;
 }
 
 .small__pictures {
 box-sizing: border-box;
-position: relative;
 float: left;
-width:120px;
 height:110px;
+left: 10px;
 margin-left: 30px;
 margin-top: 3px;
+position: relative;
 top: 10px;
-left: 10px;
+width:120px;
 }
 
 .details__container {
-float: right;
-box-sizing: border-box;
-width: 18.8vw;
-top: 0;
-height: 100vh;
-background-color: black;
+    background-color: black;
+    box-sizing: border-box;
+    float: right;
+    height: 100vh;
+    top: 0;
+    width: 18.8vw;
 }
 
 .images {
-display: block;
-border-radius: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90px;
-  height: 90px;
-  box-sizing: border-box;
+    border-radius: 90%;
+    box-sizing: border-box;
+    display: block;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
 } 
 
 .images:hover {
-    /* box-shadow: 1px 1px 5px #0e1c36; */
-    box-sizing: border-box;
     border-radius: 90%;
+    box-sizing:  border-box;
     cursor: pointer;
 }
 
 .image__names {
     box-sizing: border-box;
-    text-align: center;
     font-size: 14px;
+    text-align: center;
 }
 
 .title {
     box-sizing: border-box;
     color: white;
-    text-align: center;
     font-size: 20px;
+    text-align: center;
 }
 
 .searchBar {
@@ -76,4 +75,9 @@ border-radius: 90%;
 
 #showNoResult {
 color: whitesmoke;
+}
+
+.names__indetails, 
+.bio__indetails {
+    color:white;
 }
